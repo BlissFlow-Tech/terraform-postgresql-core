@@ -1,0 +1,12 @@
+name: release
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  release:
+    uses: BlissFlow-Tech/.github/.github/workflows/terraform-module-release.yml@main
+    permissions:
+      contents: write
+      pull-requests: write

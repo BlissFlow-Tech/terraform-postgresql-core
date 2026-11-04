@@ -16,7 +16,7 @@ provider "postgresql" {
 
 module "postgresql" {
   source  = "blissflow-tech/core/postgresql"
-  version = "~> 1.0"
+  version = "~> 1.1"
 
   admin_role = var.db_admin_username
 
